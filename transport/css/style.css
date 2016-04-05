@@ -53,8 +53,29 @@ h6{
 	border-right: 0px !important;
 	    padding-top: 5px !important;
     padding-left: 30px !important ;
+    margin-left: 37% !important;
+}
+.signin-cmc-1-2{
+	color: grey;
+	border-left-radius: 3px !important ;
+	border:1px grey solid;
+	height: 35px;
+	border-right: 0px !important;
+	    padding-top: 5px !important;
+    padding-left: 30px !important ;
+        background-color: #413937;
+            margin-left: 37% !important;
 }
 .signin-cmc-2{
+	color: grey;
+	border-right-radius: 3px;
+	border:1px grey solid;
+	height: 35px;
+	    padding-top: 5px !important ;
+    padding-left: 30px !important ;
+    background-color: #413937;
+}
+.signin-cmc-2-2{
 	color: grey;
 	border-right-radius: 3px;
 	border:1px grey solid;
@@ -113,4 +134,39 @@ h6{
 }
 .color-cmc{
 	    background-color: #ed8925 !important;
+}
+.modal{
+	max-height: 75% !important;
+}
+.font-color-cmc{
+	color: white;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 300;
+}
+div h6{
+	font-weight: 100;
+}
+.or-cmc{
+	color: white;padding-bottom: 7%;margin-left: 8%;
+}
+.footer-cmc{
+	background-color: #292728;color: white; font-weight: 200;padding-top: 90px;padding-bottom: 90px;margin-bottom: 0px !important;
+}
+.form-main-cmc{
+	background-color: #ed8925;padding-top: 40px;padding-bottom: 40px;margin-bottom: 0px !important;
+}
+.hiw-cmc{
+	color: #ed8925;
+}
+.hiw-cmc-2{
+	color: #c3c4c5;font-weight: 200;
+}
+.hiw-main-cmc{
+	 background-color: #f7f7f7;margin-bottom: 0px;
+}
+.why-main-cmc{
+	margin-top: 5%;margin-bottom: 5% !important;
+}
+.hedr-bg-cmc{
+	background-color:white;margin-top: 22.8%;z-index: 2px !important;position: absolute;
 }
