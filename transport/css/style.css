@@ -100,5 +100,17 @@ h6{
 .nav-cmc{
 	height: 30px;
 	background-color: transparent;
-	
+	    margin-left: -10px !important;
+    width: 102%;
+}
+.nav-size-cmc-1{
+	font-size: 13px;
+	margin-top: -8%;
+}
+.nav-size-cmc{
+	font-size: 13px;
+	margin-top: -1%;
+}
+.color-cmc{
+	    background-color: #ed8925 !important;
 }
