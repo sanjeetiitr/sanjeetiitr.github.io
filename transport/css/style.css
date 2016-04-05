@@ -170,7 +170,9 @@ div h6{
 .hedr-bg-cmc{
 	background-color:white;margin-top: 22.8%;z-index: 2px !important;position: absolute;
 }
-
+.all-color-cmc{
+    color: #ed8925 !important;
+}
 
 
 
