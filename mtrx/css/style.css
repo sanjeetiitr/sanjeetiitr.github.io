@@ -203,8 +203,25 @@
     width: 120px;
     height: 30px;
 }
-
-
+.nav-2-cmc{
+		background-color: blue !important;
+	border:none !important;
+	border-radius: 0px !important;
+}
+.form-control{
+	border-radius: 0px !important;  *
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.mf-1{
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+	margin-bottom: 5%;
+}
+.form-control-msg{
+	height: 100px !important;
+}
 
 
 
