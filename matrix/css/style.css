@@ -505,11 +505,47 @@ blockquote p {
     width: 250px !important;
 }
 .imp-bx-1-cmc{
-    height: 200px;
-    background-image: url("../info/focus.png");
-    background-size: cover;
+    height: 50px;
+    background-image: url("../info/cr1.png");
+    background-size: contain;
     background-repeat: no-repeat;
+        background-position-x: 50%;
     
+}
+.imp-bx-2-cmc{
+    height: 50px;
+    background-image: url("../info/cr2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+        background-position-x: 50%;
+}
+.imp-bx-3-cmc{
+    height: 50px;
+    background-image: url("../info/cr3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+        background-position-x: 50%;
+}
+.imp-bx-4-cmc{
+    height: 50px;
+    background-image: url("../info/cr4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+        background-position-x: 50%;
+}
+.imp-bx-5-cmc{
+    height: 50px;
+    background-image: url("../info/cr5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+        background-position-x: 50%;
+}
+.imp-bx-6-cmc{
+    height: 50px;
+    background-image: url("../info/cr6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+        background-position-x: 50%;
 }
 /*tabckshvbsldjvhbsdfjhvbsdfkjhvbsdfjkhvbsdflhvsbdfjvhdfbvhdfbvf*/
 body {
