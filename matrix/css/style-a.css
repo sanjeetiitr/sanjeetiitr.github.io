@@ -228,11 +228,14 @@
 
 .card{
     
-    background-color: #e3e3e3;
+    background-color: #0b7f73;
     border-radius: 10px;
     text-align: center;
     align-content: center;
     height: 440px;
+        color: white;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 .card p{
     margin: 20px;
