@@ -569,3 +569,6 @@ blockquote p {
     background-color: #07564e !important;
     color: white !important;
 }
+.imp-bx-1-cmc:active {
+    border-bottom: 2px solid green;
+}
