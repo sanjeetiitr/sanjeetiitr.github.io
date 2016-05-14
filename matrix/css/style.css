@@ -124,7 +124,7 @@ body {
 .carousel-control.left,.carousel-control.right  {background:none;width:25px;}
 
 .broun-block {
-	background-color: #07564e;
+	background-color: #053c36;
     padding-bottom: 34px;
 }
 .block-text {
@@ -401,16 +401,16 @@ height: 300px;
     height: 225px;
 }
 .crsl-1-cmc{
-    background-image: url("../img/main1.png");
+    background-image: url("../img/abtmatrx.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
 }
 .crsl-2-cmc{
-    background-image: url("../img/main2.png");
+    background-image: url("../img/abtmatrx.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
 }
 .ftr-logo-cmc{
     height:200px;
@@ -471,7 +471,7 @@ li a {
 }
 blockquote p {
     font-weight: 300;
-    min-height: 200px;
+    min-height: 250px;
 }
 .nav-othr-cmc{
     background-color: #07564e !important;
@@ -481,19 +481,19 @@ blockquote p {
 }
 .fclty-bx1-cmc{
     height: 200px;
-    background-color: #fbb03b;
+    background-color:  #10bfac;
     padding-top: 8%;
         border-radius: 10px;
 }
 .fclty-bx2-cmc{
     height: 200px;
-    background-color: #f7931e;
+    background-color: #0b7f73;
     padding-top: 8%;
         border-radius: 10px;
 }
 .fclty-bx3-cmc{
     height: 200px;
-    background-color: #f15a24;
+    background-color: #07564e;
     padding-top: 8%;
     border-radius: 10px;
 }
@@ -548,6 +548,15 @@ blockquote p {
     background-repeat: no-repeat;
         background-position-x: 50%;
 }
-
-
+.abt-mtrx-cmc{
+        background-image: url("../img/abtmatrx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 427px;
+}
+.sbt-mtrx-head-cmc{
+    color: white;
+    font-weight: 400;
+    margin-top: 12%;
+}
 
