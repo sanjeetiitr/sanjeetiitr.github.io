@@ -30,12 +30,12 @@ body {
     margin-left: 5%;
 }
 .a1-cmc{
-	background-image: url("../img/info1.png");
-	height: 120px;
+	background-image: url("../img/1.png");
+	height: 46px;
 	background-repeat: no-repeat;
 	background-size: contain;
-	    margin-bottom: 10%;
-	    margin-left: 18%;
+	    margin-bottom: 6%;
+	    margin-left: 26%;
 }
 .about-cmc{
 	margin-bottom: 5%;
@@ -45,19 +45,19 @@ body {
 	margin-top: 6%;
 }
 .a2-cmc{
-	background-image: url("../img/info2.png");
-    height: 120px;
+	background-image: url("../img/2.png");
+    height: 48px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 15%;
-    margin-left: 26%;
+    margin-bottom: 4%;
+    margin-left: 45%;
 }
 .a3-cmc{
-	background-image: url("../img/info3.png");
-	height: 97px;
+	background-image: url("../img/3.png");
+	height: 33px;
 	background-repeat: no-repeat;
 	background-size: contain;
-	    margin-bottom: 10%;
+	    margin-bottom: 7%;
 	    background-position-x: 50%;
 }
 .abt-btn-cmc{
@@ -124,7 +124,7 @@ body {
 .carousel-control.left,.carousel-control.right  {background:none;width:25px;}
 
 .broun-block {
-	background-color: #37474f;
+	background-color: #07564e;
     padding-bottom: 34px;
 }
 .block-text {
@@ -401,13 +401,13 @@ height: 300px;
     height: 225px;
 }
 .crsl-1-cmc{
-    background-image: url("http://hinddesh.com/wp-content/uploads/2014/05/indian-student-abroad.jpg");
+    background-image: url("../img/main1.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
 }
 .crsl-2-cmc{
-    background-image: url("http://www.med.nyu.edu/school/sites/default/files/school2/banner-sa-student-resources.jpg");
+    background-image: url("../img/main2.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -471,6 +471,7 @@ li a {
 }
 blockquote p {
     font-weight: 300;
+    min-height: 200px;
 }
 .nav-othr-cmc{
     background-color: #07564e !important;
@@ -547,8 +548,6 @@ blockquote p {
     background-repeat: no-repeat;
         background-position-x: 50%;
 }
-
-
 
 
 
