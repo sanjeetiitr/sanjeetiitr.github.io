@@ -560,3 +560,12 @@ blockquote p {
     margin-top: 12%;
 }
 
+.btn-cntct-cmc{
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid grey !important;
+}
+.crse-btn-cmc:hover {
+    background-color: #07564e !important;
+    color: white !important;
+}
