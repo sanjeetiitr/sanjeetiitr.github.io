@@ -3,7 +3,7 @@ body {
 }
 .cmc-headr{
 	background-image: url("../img/hdr1.jpg");
-	height: 600px;
+	height: 45em;
 	background-size: cover;
 	margin-top: -6%;
 	z-index: 0;*/
@@ -602,6 +602,7 @@ blockquote p {
     margin-top: 140%;}
 .mobile-view-prev-txt-cmc{font-size:10px;}
 .marg-crse-txt-cmc{margin-top: 70% !important;}
+.cmc-headr-rspon{height: 48em !important;}
 }
 
 .mobile-view-prev-txt-cmc{

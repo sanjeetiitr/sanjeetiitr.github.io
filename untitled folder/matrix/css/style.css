@@ -571,7 +571,39 @@ blockquote p {
 .imp-bx-1-cmc:active {
     border-bottom: 2px solid green;
 }
+.imp-bx-2-cmc:active {
+    border-bottom: 2px solid green;
+}
+.imp-bx-3-cmc:active {
+    border-bottom: 2px solid green;
+}
+.imp-bx-4-cmc:active {
+    border-bottom: 2px solid green;
+}
+.imp-bx-5-cmc:active {
+    border-bottom: 2px solid green;
+}
+.imp-bx-6-cmc:active {
+    border-bottom: 2px solid green;
+}
 @media (max-width:992px)
 {.scrn-pdng-cmc{padding-top: 45%}
 .abt-mtrx-cmc{height: 490px;}
+.margin-cmc-full-page-cmc{margin-top: 20%;}
+}
+.margin-cmc-whole-page-cmc{
+    margin-bottom: 5%;padding-top: 5%;
+}
+
+@media (max-width:992px)
+{.mobile-view-txt-cmc{    padding-top: 25%;
+    color: black;
+    font-size: 10px !important;
+    margin-top: 140%;}
+.mobile-view-prev-txt-cmc{font-size:10px;}
+.marg-crse-txt-cmc{margin-top: 70% !important;}
+}
+
+.mobile-view-prev-txt-cmc{
+    padding-top:25%; color:  black; font-size: 16px;
 }
