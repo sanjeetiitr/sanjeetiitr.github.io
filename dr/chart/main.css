@@ -1,0 +1,100 @@
+chart {
+  width: 100%;
+}
+
+.chart li {
+  border-radius: 4px 4px 0 0; /* Remember vendor prefixes */
+  box-shadow: 0 1px 0 0 rgba(255,255,255,.6) inset; /* Remember vendor prefixes */
+  display: block;
+  height: 125px;
+  padding: 25px 0;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/*.chart .axis {
+  display: none;
+  top: -25px;
+  width: 11%;
+ }
+
+
+.chart .label {
+  background: #eaeaea;
+  text-align: center;
+  margin: -.6em 0 65px 0;
+}*/
+
+.chart .percent {
+  font-size: 30px;
+  letter-spacing: -3px;
+  opacity: .4;
+  width: 100%;
+}
+
+.chart .skill {
+  width: 100%;
+}
+
+
+.chart .teal {
+background: #4ecdc4;
+text-align: center;
+background-image: linear-gradient(#ffd2d1, #f1b3b0 70%);
+border: 1px solid #ffd2d1;
+}
+
+.chart .salmon {
+background: #4ecdc4;
+background-image: linear-gradient(#ffd2d1, #f1b3b0 70%);
+border: 1px solid #ffd2d1;
+}
+.chart .peach {
+background: #4ecdc4;
+background-image: linear-gradient(#ffd2d1, #f1b3b0 70%);
+border: 1px solid #ffd2d1;
+}
+.chart .lime {
+background: #4ecdc4;
+background-image: linear-gradient(#ffd2d1, #f1b3b0 70%);
+border: 1px solid #ffd2d1;
+}
+.chart .grape {
+background: #4ecdc4;
+background-image: linear-gradient(#ffd2d1, #f1b3b0 70%);
+border: 1px solid #ffd2d1;
+}
+.chart span {
+  font-size: 30px;
+}
+@media (min-width: 700px) {
+  .chart {
+    height: 425px;
+    margin: 0 auto -32px;
+  }
+  .chart li {
+    display: inline-block;
+    height: 425px;
+    margin: 0 1.8% 0 0;
+    width: 14%;
+  }
+  .chart .axis {
+    display: inline-block;
+  }
+  .chart .percent {
+    font-size: 40px;
+    position: absolute;
+  }
+  .chart .skill {
+    bottom: 20px;
+    font-size: 16px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1000px) {
+  .chart .percent {
+    font-size: 62px;
+  }
+}
