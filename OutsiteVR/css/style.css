@@ -1,0 +1,162 @@
+@font-face { font-family: AvenirNextLTPro-Demi ; src: url('../fonts/AvenirNextLTPro-Demi.otf'); }
+@font-face { font-family: AvenirNextLTPro-Regular ; src: url('../fonts/AvenirNextLTPro-Regular.otf'); }
+
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+.banner-ib{
+	height: 90vh;
+	background-color: red;
+	background-image: url("../img/banner_dsk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: bottom;
+
+}
+.logo-ib{
+	background-image: url("../img/OutsiteVR_logo_png.png");
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.fb-ib{
+	background-image: url("../img/FB_icon.png");
+	height: 22px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	opacity: .6;
+	/*float: right;*/
+}
+.fb-ib:hover{
+	opacity: 1;
+}
+.tw-ib{
+	background-image: url("../img/Twitter_icon.png");
+	height: 22px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	opacity: .6;
+	/*float: right;*/
+}
+.tw-ib:hover{
+	opacity: 1;
+}
+.inst-ib{
+	background-image: url("../img/Insta_icon.png");
+	height: 22px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	opacity: .6;
+	/*float: right;*/
+}
+.inst-ib:hover{
+	opacity: 1;
+}
+.yt-ib{
+	background-image: url("../img/youtube_icon.png");
+	height: 22px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	opacity: .6;
+	/*float: right;*/
+}
+.yt-ib:hover{
+	opacity: 1;
+}
+.headline-ib{
+	color: #ffffff;
+	font-family: AvenirNextLTPro-Demi ;
+	font-size: 1.125em;
+}
+.cmg-ib{
+	opacity: .5;
+	color: #000000;
+	font-family: AvenirNextLTPro-Regular ;
+	padding-bottom: 15px;
+}
+.form-control-ib{
+	height: 44px !important;
+	border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border : none;
+}
+.btn-ib{
+	padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+        border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    background-color: #8dc711;
+    border : none;
+}
+.btn-ib:hover{
+	background-color: #7aad0e;
+
+}
+.icon-1-ib{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../img/iitr_icon.png");
+	height: 100px;
+	background-position: center;
+}
+.icon-2-ib{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../img/spa_icon.png");
+	height: 100px;
+	background-position: center;
+}
+.icon-3-ib{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../img/intach_icon.png");
+	height: 100px;
+	background-position: center;
+}
+.input-group{
+	-webkit-box-shadow: 0px 5px 44px 4px rgba(0,0,0,0.12);
+-moz-box-shadow: 0px 5px 44px 4px rgba(0,0,0,0.12);
+box-shadow: 0px 5px 44px 4px rgba(0,0,0,0.12);
+border-radius: 23px;
+}
+ul li{
+	    float: right;
+    padding: 14px;
+}
+
+@media(max-width:767px) {
+	.m-banner-ib{
+		background-image: url("../img/banner_image_mobile.jpg") !important;
+	}
+	.m-margin-ib{
+		padding-top: 20px !important; 
+	}
+	.m-input-group-ib{
+		position: fixed;
+		bottom: 0;
+		z-index: 1000;
+		padding-left: 0px !important;
+		    margin-left: -15px;
+	}
+	.m-form-control-ib{
+			border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+	}
+	.m-btn-ib{
+		    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+	}
+}
+
+.margin-ib{
+	padding-top: 80px;
+}
