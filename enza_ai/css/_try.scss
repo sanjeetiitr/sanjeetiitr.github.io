@@ -1,0 +1,87 @@
+.try {
+  z-index: 1000;
+  height: auto;
+  padding-top: 710px;
+  padding-bottom: 100px;
+  background: url(../img/pattern.png), $theme-color;
+  background: url(../img/pattern.png), -webkit-linear-gradient(#0162b0, #383a6d); /* For Safari 5.1 to 6.0 */
+  background: url(../img/pattern.png), -o-linear-gradient(#0162b0, #383a6d); /* For Opera 11.1 to 12.0 */
+  background: url(../img/pattern.png), -moz-linear-gradient(#0162b0, #383a6d); /* For Firefox 3.6 to 15 */
+  background: url(../img/pattern.png), linear-gradient(#0162b0, #383a6d); /* Standard syntax */
+  background-size: cover;
+  color: white;
+
+  .heading {
+      position: relative;
+      top: -80px !important;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 28px;
+    }
+    h4 {
+      font-weight: 200;
+      text-align: center;
+    }
+  }
+
+  .box {
+    margin-bottom: 100px;
+  }
+
+  .icon {
+    height: 93px;
+    width: 93px;
+    border: 3px solid white;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+
+  #time {
+    background: url(../img/ic3.png), #003366;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat; 
+  }
+
+  #machine-learning {
+    background: url(../img/ic4.png), #003366;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat; 
+  }
+
+  #cross-platform {
+    background: url(../img/ic5.png), #003366;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat; 
+  }
+
+  #available {
+    background: url(../img/ic6.png), #003366;
+    background-position: center;
+    background-size: 35%;
+    background-repeat: no-repeat; 
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 17px;
+    text-align: center;
+  }
+
+  .btn {
+    width: 180px;
+    height: 39px;
+    font-size: 16px;
+  }
+
+}

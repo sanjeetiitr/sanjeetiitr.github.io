@@ -1,0 +1,267 @@
+.in-action {
+  background: #ededed;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  .main {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 36px;
+    background: white;
+    height: 500px;
+    border-radius: 20px;
+    color: #999;
+
+    .col-md-4 {
+      border-right: 3px solid #d3d3d3;
+      height: 430px;
+    }
+    .profile {
+      font-weight: 200;
+      margin-bottom: 100px;
+      margin-left: 30px;
+      .dp {
+        height: 70px;
+        width: 70px;
+        margin: 0 auto;
+        border: 1px solid grey;
+        border-radius: 100%;
+        margin-bottom: 20px;
+        background: url(../img/icon28.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        float: left;
+      }
+      .details {
+        float: left;
+        clear: right;
+        margin-top: 0px;
+        margin-left: 18px;
+        p {
+          margin-bottom: 0px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .options {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 2px;
+      font-size: 24px;
+      .option {
+        font-size: 14px;
+        height: 38px;
+        padding-top: 7px;
+        cursor: pointer;
+        margin-bottom: 6px;
+      }
+      .option:hover {
+        /*box-shadow: 2px 2px 5px #bfbfbf;*/
+        background: #EBEBEC;
+      }
+
+      .selected {
+        background: #179AD7 ;
+        color: white;
+        box-shadow: 2px 2px 5px #bfbfbf;
+      }
+      .selected:hover {
+        box-shadow: 2px 2px 5px #bfbfbf;
+        background: #179AD7 ;
+        color: white;
+      }
+    }
+    .rate {
+      margin: 0 auto;
+      width: 80%;
+      margin-top: 32px;
+      h4 {
+        text-align: center;
+        font-size: 16px;
+      }
+      .stars {
+        width: 120px;
+        height: 30px;
+        margin: 0 auto;
+        .img {
+          display: inline-block;
+          background: url("../img/icon33.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 20px;
+          width: 20px;
+        }
+        .starred {
+          background: url("../img/star.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        .img:hover {
+          background: url("../img/star.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
+
+
+  .sections {
+    .tabs{
+      height: 50px;
+      margin-bottom: 10px;
+      padding: 2px 0px;
+      padding-left: 12px;
+
+      .tab:nth-of-type(3) {
+        width: 25%;
+      }
+
+      .tab:nth-of-type(4) {
+        width: 23%;
+      }
+
+      .tab {
+        width: 16%;
+        height: 37px;
+        float: left;
+        margin-right: 16px;
+        padding: 0px;
+        border-radius: 2px;
+        cursor: pointer;
+
+        h4 {
+          position: relative;
+          top: -12px;
+          left: 8px;
+          font-weight: 300;
+          font-size: 14px;
+          display: inline-block;
+          color: black;
+        }
+
+        .icon {
+          display: inline-block;
+          height: 36px;
+          width: 38px;
+          margin-top: 0px;
+          background-size: 60% !important;
+          background-position: center !important;
+          background-repeat: no-repeat !important;
+        }
+
+        .bank-white {
+          background: url(../img/bank-white.png);
+        }
+
+        .hotel-black {
+          background: url(../img/hotel-black.png);
+        }
+
+        .resturaunt-black {
+          background: url(../img/resturaunt-black.png);
+        }
+
+        .navigation-black {
+          background: url(../img/navigation-black.png);
+        }
+
+        .bank-black {
+          background: url(../img/bank-black.png);
+        }
+
+        .hotel-white {
+          background: url(../img/hotel-white.png);
+        }
+
+        .resturaunt-white {
+          background: url(../img/resturaunt-white.png);
+        }
+
+        .navigation-white {
+          background: url(../img/navigation-white.png);
+        }
+      }
+
+      .tab:hover {
+        /*box-shadow: 2px 2px 5px #bfbfbf;*/
+        background: #EBEBEC;
+      }
+
+      .selected {
+        box-shadow: 2px 2px 5px #bfbfbf;
+        background: #179AD7;
+        border: 0;
+        color: white;
+
+        h4 {
+          color: white;
+        }
+      }
+
+      .selected:hover {
+        border: 0;
+        box-shadow: 2px 2px 5px #bfbfbf;
+        background: #179AD7;
+      }
+    }
+    .chat-box {
+      position: relative;
+      height: 382px;
+      width: 94%;
+      background: $theme-bgcolor;
+      border-radius: 14px;
+      .input-box {
+        background: #F9FAFA;
+        width: 95%;
+        height: 40px;
+        position: absolute;
+        bottom: 13px;
+        margin-left: 14px;
+        border-radius: 14px;
+        padding-top: 5px;
+        padding-left: 5px;
+        input {
+          background: inherit;
+          border: none;
+          height: 30px;
+          width: 90%;
+          border-right: 1px solid #888;
+          float: left;
+          padding-left: 5px;
+          color: black;
+        }
+        input:focus {
+          outline: none;
+        }
+        .send-icon {
+          background: transparent ;
+          height: 30px;
+          width: 48px;
+          float: left;
+          button {
+            height: inherit;
+            width: inherit;
+            background: inherit;
+            border: none;
+            font-size: 20px;
+          }
+          button:focus {
+            outline: none;
+            box-shadow: 0 0 2px grey;
+          }
+        }
+      }
+    }
+  }
+}

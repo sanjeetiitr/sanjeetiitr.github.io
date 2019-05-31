@@ -1,0 +1,131 @@
+.in-use {
+  background: url(../img/pattern.png), #2c2d2d;
+  background-size: cover;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  .container {
+    width: 93%
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .bars {
+    background-color:rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    h2 {
+      font-weight: 300;
+      margin: 10px 5px;
+      font-size: 19px;
+    }
+  }
+  .cards {
+    margin: 12px 4px;
+    /*border: 1px solid grey;*/
+
+    .icons {
+      text-align: center;
+      border: 3px solid white;
+      border-radius: 100%;
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    #telecom {
+      background: url(../img/icon16.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #banks {
+      background: url(../img/icon17.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #hotels {
+      background: url(../img/icon18.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #resturaunts {
+      background: url(../img/in1.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #travel {
+      background: url(../img/in2.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #edu {
+      background: url(../img/in3.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #customer-grivence {
+      background: url(../img/in4.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #customer-support {
+      background: url(../img/in5.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #offers {
+      background: url(../img/in6.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #transaction {
+      background: url(../img/in7.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #discovery {
+      background: url(../img/in8.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    #historic {
+      background: url(../img/in9.png);
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat; 
+    }
+
+    p {
+      font-size: 15px;
+      text-align: center;
+      font-weight: 100;
+    }
+  }
+}

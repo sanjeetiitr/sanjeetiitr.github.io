@@ -1,0 +1,150 @@
+.overview {
+
+  .selector {
+    padding: 0;
+  }
+  .cards {
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-top: 60px;
+    width: 50%;
+    height: 300px;
+    float: left;
+    cursor: pointer;
+
+    .icons {
+      text-align: center;
+      /*border: 1px solid grey;*/
+      width: 100px;
+      height: 70px;
+      margin: 0 auto;
+    }
+
+    #dynamic {
+      background: url(../img/icon12.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #automation {
+      background: url(../img/icon13.png);
+      background-position: center;
+      background-size: 66%;
+      background-repeat: no-repeat;
+    }
+
+    #decission {
+      background: url(../img/icon14.png);
+      background-position: center;
+      background-size: 77%;
+      background-repeat: no-repeat;
+    }
+
+    #result {
+      background: url(../img/icon15.png);
+      background-position: center;
+      background-size: 66%;
+      background-repeat: no-repeat;
+    }
+  
+    h3 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    hr {
+      width: 86px;
+      display: block;
+      margin-top: 21px;
+      margin-bottom: 34px;
+      margin-left: auto;
+      margin-right: auto;
+      border-width: 1.5px;
+      border-color: black;
+      transition: width 0.5s;
+    }
+
+    p {
+      width: 260px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 14px;
+      color: lightgrey;
+    }
+  }
+
+  .cards:hover {
+    background: #e5e5e5;
+    hr {
+      width: 50%;
+    }
+  }
+
+  .selected {
+    background: #DCDBDA ;
+
+    hr {
+      width: 50%;
+    }
+    p {
+      color: #383838;
+    }
+  }
+
+  .selected:hover {
+    background: $theme-color;
+    background: #e5e5e5;
+    hr {
+      width: 50%;
+    }
+    p {
+      color: #383838;
+    }
+  }
+
+  .cards:nth-of-type(1), .cards:nth-of-type(3) {
+    border-left: 1px solid grey;
+  }
+
+
+  .console {
+
+    height: 600px;
+    background: url(../img/pattern.png), $theme-color;
+    background: url(../img/pattern.png), -webkit-linear-gradient(#0162b0, #383a6d); /* For Safari 5.1 to 6.0 */
+    background: url(../img/pattern.png), -o-linear-gradient(#0162b0, #383a6d); /* For Opera 11.1 to 12.0 */
+    background: url(../img/pattern.png), -moz-linear-gradient(#0162b0, #383a6d); /* For Firefox 3.6 to 15 */
+    background: url(../img/pattern.png), linear-gradient(#0162b0, #383a6d); /* Standard syntax */
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    padding-top: 110px;
+    .box {
+      width: 60%;
+      margin: 0 auto;
+      height: auto;
+      color: white;
+      text-align: center;
+      .center{
+        padding: 2px 20px;
+        display:inline-block;
+        border-bottom: 2px solid white;
+        margin: 20px auto;
+        margin-bottom: 55px;
+        transition: border-bottom 3s;
+        h3 {
+          display: inline-table;
+          padding-bottom: 8px;
+          text-align: center;
+        }
+      }
+      p {
+        width: 110%;
+        line-height: 20px;
+        padding-left: 7px;
+        text-align: left;
+      }
+    }
+
+  }
+}

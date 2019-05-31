@@ -1,0 +1,59 @@
+.features {
+  padding-top: 28px;
+  padding-bottom: 66px;
+  h1 {
+    margin-top: 20px; 
+    margin-bottom: 66px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .card {
+    height: 204px;
+    width: 235px;
+    margin: 0 auto;
+    
+    .icon {
+      height: 94px;
+      width: 94px;
+      background: #0F2D50;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    #handle {
+      background: url(../img/1.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+    }
+
+    #combine {
+      background: url(../img/2.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+    }
+
+    #structure {
+      background: url(../img/3.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+    }
+
+    #reduce {
+      background: url(../img/4.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+    }
+
+    p {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 200;
+    }
+  }
+}

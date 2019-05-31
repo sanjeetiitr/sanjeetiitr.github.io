@@ -1,0 +1,149 @@
+
+.banner {
+  position: relative;
+  z-index: 100;
+  background: url(../img/pattern.png), $theme-color;
+  background-size: cover;
+  font-family: $theme-font;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  height: 580px;
+  /*height: auto;*/
+  color: white;
+  margin-bottom: 25px;
+
+  .content {
+    color: #26AAE1;
+    position: relative;
+    width: 670px;
+    top: 190px;
+    margin: 0 auto;
+    text-align: center;
+    /*text-shadow: 0 0 300px white;*/
+    /*box-shadow: 0px 0px 100px white;*/
+
+    .white {
+      color: white;
+    }
+
+    h2 {
+      font-size: 50px !important;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      width: 644px;
+      margin: 0 auto;
+      font-weight: 100;
+      color: white;
+    }
+
+    .hr {
+        background: url(../img/icon.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 80%;
+        margin-bottom: 0px;
+        margin: 0 auto;
+    }
+
+  }
+}
+
+#L1 { /* Yo Bro! 8-) , parallaxed0  */
+    position: absolute;
+    top: 80px;
+    left: 330px;
+}
+
+#L2 { /* Hi..! , parallaxed0 !*/
+    position: absolute;
+    top: 135px;
+    left: 67px;
+}
+
+#L3 { /*  Come back Soon! , parallaxed1 */
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+
+#L4 { /*  BRB! , parallaxed1 */
+    position: absolute;
+    top: 470px;
+    left: 140px;
+}
+
+#L5 { /* Whatsaupp!! ^_^ , parallaxed0  */
+    position: absolute;
+    top: 530px;
+    left: 380px;
+}
+
+#R1 { /*  Happy as hell , parallaxed2 */
+    position: absolute;
+    top: 100px;
+    right: -10px;
+}
+
+
+#R2 { /* Miss You... :* , parallaxed0  */
+    position: absolute;
+    top: 180px;
+    right: 200px;
+}
+
+#R3 { /*  Yo Bro , parallaxed2 */
+    position: absolute;
+    top: 305px;
+    right: -10px;
+}
+
+#R4 { /*  How are you? , parallaxed1 */
+    position: absolute;
+    top: 470px;
+    right: 10px;
+}
+
+
+#R5 { /*  Bhai Kya haal? , parallaxed2 */
+    position: absolute;
+    top: 550px;
+    right: 80px;
+}
+
+.textshadow .blurry-text {
+   text-shadow: 0 0 3px white;
+   color: transparent;
+   font-size: 10px;
+}
+
+/*.textshadow .blurry-text-answer {
+   color: rgba(255, 255, 0, 0.6);
+}*/
+
+.blurred1 {
+   text-shadow: 0 0 2px white;
+   color: transparent;
+   font-size: 12px;
+}
+
+/*.blurred1-answer {
+   color: rgba(255, 255, 0, 0.6);
+}*/
+
+.blurred2 {
+   text-shadow: 0 0 1px white;
+   color: transparent;
+   font-size: 13px;
+}
+
+/*.blurred2-answer {
+   color: rgba(255, 255, 0, 0.6);
+}*/
+
+
